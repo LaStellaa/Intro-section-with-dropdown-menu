@@ -185,7 +185,7 @@ picture > img {
   padding-block: 1rem;
   width: 50%;
   margin: auto;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 15px;
   font-size: 1.1rem;
   font-weight: var(--fw-bold);
@@ -194,7 +194,7 @@ picture > img {
 .btn-learn-more:hover {
   background-color: var(--Almost-White);
   color: var(--Almost-Black);
-  border: 1px solid var(--Almost-Black);
+  border-color: var(--Almost-Black);
 }
 
 .footer {
@@ -292,6 +292,10 @@ picture > img {
     background-color: white;
     padding: 0.3rem;
     border-radius: 10px;
+<<<<<<< HEAD
+=======
+    position: absolute;
+>>>>>>> 3772657 (Css file update)
   }
 
   .buttons > .btn-register,
